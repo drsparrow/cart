@@ -1,0 +1,4 @@
+# spiders :'(
+
+User-agent: *
+Disallow: /

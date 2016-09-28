@@ -1,0 +1,147 @@
+body {
+  height: 95vh;
+  background: blue;
+  min-width: 965px;
+}
+
+.content {
+  padding: 3px;
+  position: relative;
+  height: 95%;
+  border: 5px dashed red;
+  margin: 40px;
+}
+
+.follower {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.flipped {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+}
+
+.flopped {
+    transform: scale(1, -1);
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -khtml-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+}
+
+.flipped.flopped {
+    transform: scale(-1, -1);
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -khtml-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+}
+
+.carter-control {
+  padding: 0;
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  z-index: 2;
+  background: green;
+}
+
+.carter-control:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.js-addition {
+  bottom: 5px;
+  right: 5px;
+}
+
+.js-removal {
+  bottom: 5px;
+  left: 5px;
+}
+
+.js-change {
+  top: 5px;
+  left: 5px;
+}
+
+.js-flop {
+  top: 5px;
+  right: 5px;
+}
+
+.center-text {
+  text: center;
+  text-align: center;
+}
+
+.bio {
+  background: red;
+  font-size: 18px;
+  padding: 5px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.bio-container {
+  width: 500px;
+  margin: 0 10px;
+}
+
+.side-bar {
+  width: 200px;
+  background: darkblue;
+  padding: 5px 10px;
+  /*border: 1px solid red;*/
+}
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.main-content {
+  max-width: 965px;
+  width: auto;
+  margin: auto;
+}
+
+.side-img {
+  width: 95%;
+}
+
+.side-img.small {
+  width: 80%;
+}
+
+.bio-container img.third {
+  width: 30%;
+}
+
+.bio-container img.half {
+  width: 45%;
+}
+
+.footer {
+  background: darkblue;
+}
+
+.footer img {
+  margin: 10px;
+  height: 180px;
+}
