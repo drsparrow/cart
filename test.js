@@ -100,7 +100,7 @@ $(function(){
   var $addition = $('.js-addition')
   var $removal = $('.js-removal')
   var pictureIndex = 0
-  var totalPictures = 3
+  var totalPictures = 5
   var flopped = false
 
   $addition.click(function(){
