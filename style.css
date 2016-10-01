@@ -41,6 +41,7 @@ body {
 .carter-addition {
   bottom: 5px;
   right: 5px;
+  display: none;
 }
 
 .carter-change {
@@ -130,14 +131,15 @@ body {
 .extra-stuff {
   font-size: 18px;
   background: yellow;
+  padding: 5px;
 }
 
 .extra-stuff-container {
-  margin-top: 5px;
+  margin-top: 33px;
 }
 
 .contact-me {
-  margin: auto;
+  margin: 11px auto;
   width: 500px;
   border: 2px dashed white;
   background: orange;
@@ -159,9 +161,11 @@ body {
 .left-of-contact {
   width: 200px;
   margin-left: 40px;
+  border: 3px solid orange;
 }
 
 .right-of-contact {
+  border: 3px solid orange;
   width: 200px;
   margin-right: 40px;
 }

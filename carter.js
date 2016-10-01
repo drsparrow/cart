@@ -11,7 +11,7 @@ $(function(){
 
   Carter.multiplier = 2
   Carter.carters = []
-  Carter.brokenFree = false
+  Carter.brokenFree = false //localStorage.getItem('cartersBrokenFree')
 
   Carter.last = function () {
     var arr = Carter.carters;
@@ -125,6 +125,7 @@ $(function(){
   })
 
   $('.js-change').click(function(){
+    $('.js-addition').show()
     pictureIndex = (pictureIndex + 1)%totalPictures
     $('img.follower').attr('src', "js-image/cart"+pictureIndex+".png")
   })
@@ -143,9 +144,10 @@ $(function(){
   })
 
   $('.js-remove-border').click(function(){
+    // localStorage.setItem('cartersBrokenFree', true)
     Carter.brokenFree = true
     $carterHeadsContent.css('border-color', 'transparent')
-    $(this).hide()
+    $(this).addClass('disabled')
   })
 
   setInterval(moveFunction, 10)
