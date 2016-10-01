@@ -8,7 +8,7 @@ body {
   padding: 3px;
   position: relative;
   height: 90%;
-  border: 5px dashed red;
+  border: 5px solid red;
   margin: 40px;
 }
 
@@ -19,12 +19,13 @@ body {
 }
 
 .carter-control {
-  padding: 0;
+  padding: 2px;
   position: absolute;
   color: black;
   font-size: 50px;
   z-index: 2;
   background: green;
+  border: 2px solid yellow;
 }
 
 .carter-control:not(.disabled):hover {
@@ -55,6 +56,13 @@ body {
 .carter-flop {
   top: 5px;
   right: 5px;
+}
+
+.carter-remove-boarder {
+  top: 5px;
+  right: 50px;
+  display: none;
+  background: orange;
 }
 
 .center-text {
@@ -118,6 +126,12 @@ body {
   width: 45%;
 }
 
+.carter-range-multiplier {
+  z-index: 3;
+  position: absolute;
+  bottom: 5px;
+}
+
 .footer {
   background: darkblue;
   margin-bottom: 10px;
@@ -130,7 +144,7 @@ body {
   height: 180px;
 }
 
-.not-selectable, img {
+.not-selectable, img, .carter-control {
   user-drag: none;user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;
 }
 
