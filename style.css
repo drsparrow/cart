@@ -2,6 +2,7 @@ body {
   height: 95vh;
   background: blue;
   min-width: 965px;
+  font-size: 18px;
 }
 
 .carter-heads-content {
@@ -68,7 +69,6 @@ body {
 
 .bio {
   background: red;
-  font-size: 18px;
   padding: 10px;
   margin: 20px auto;
   text-align: left;
@@ -129,7 +129,6 @@ body {
 }
 
 .extra-stuff {
-  font-size: 18px;
   background: yellow;
   padding: 5px;
 }

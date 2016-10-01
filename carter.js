@@ -117,7 +117,7 @@ $(function(){
     new Carter($newCarter)
   })
 
-  $('body').mousemove(function(e){
+  $(document).mousemove(function(e){
     if(!$carterHeadsContent.is(':hover') && !Carter.brokenFree) { return }
     offset = $carterHeadsContent.offset()
     mouseX = e.clientX - offset.left + $(document).scrollLeft()
