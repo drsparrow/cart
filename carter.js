@@ -38,7 +38,7 @@ $(function(){
     var d = new Date();
     var n = d.getMilliseconds();
     var change = Math.sin((n/1000)*(2*Math.PI) + this.seed)
-    var changeTo = this.width + (change *(Carter.multiplier**2))
+    var changeTo = this.width + (change * Math.pow(Carter.multiplier,2))
     this.jqueryObject.width(changeTo)
     this.jqueryObject.height(changeTo)
   }
