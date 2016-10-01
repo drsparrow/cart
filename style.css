@@ -156,6 +156,16 @@ body {
   height: 180px;
 }
 
+.left-of-contact {
+  width: 200px;
+  margin-left: 40px;
+}
+
+.right-of-contact {
+  width: 200px;
+  margin-right: 40px;
+}
+
 .not-selectable, img, .carter-control {
   user-drag: none;user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;
 }
