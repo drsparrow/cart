@@ -43,24 +43,19 @@ body {
   right: 5px;
 }
 
-.carter-removal {
-  bottom: 5px;
-  left: 5px;
-}
-
 .carter-change {
   top: 5px;
   left: 5px;
 }
 
 .carter-flop {
-  top: 5px;
-  right: 5px;
+  bottom: 5px;
+  left: 5px;
 }
 
 .carter-remove-boarder {
   top: 5px;
-  right: 50px;
+  right: 5px;
   display: none;
   background: orange;
 }
