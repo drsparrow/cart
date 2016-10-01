@@ -9,7 +9,7 @@ body {
   position: relative;
   height: 90%;
   border: 5px solid red;
-  margin: 40px;
+  margin: 20px 40px 40px 40px;
 }
 
 .follower {
@@ -125,6 +125,23 @@ body {
   z-index: 3;
   position: absolute;
   bottom: 5px;
+}
+
+.extra-stuff {
+  font-size: 18px;
+  background: yellow;
+}
+
+.extra-stuff-container {
+  margin-top: 5px;
+}
+
+.contact-me {
+  margin: auto;
+  width: 500px;
+  border: 2px dashed white;
+  background: orange;
+  padding: 2px;
 }
 
 .footer {
