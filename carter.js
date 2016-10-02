@@ -118,7 +118,7 @@ $(function(){
 
   $(document).mousemove(function(e){
     if(!$carterHeadsContent.is(':hover') && !Carter.brokenFree) { return }
-    offset = $carterHeadsContent.offset()
+    var offset = $carterHeadsContent.offset()
     mouseX = e.clientX - offset.left + $(document).scrollLeft()
     mouseY = e.clientY - offset.top + $(document).scrollTop()
   })
