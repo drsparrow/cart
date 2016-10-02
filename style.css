@@ -108,17 +108,6 @@ body {
   visibility:visible;
 }
 
-.float-left { float: left; }
-.float-right { float: right; }
-
-.clearfix:after {
-   content: " ";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-}
-
 .main-content {
   max-width: 965px;
   width: auto;
@@ -190,6 +179,17 @@ body {
 
 .back-to-top-container {
   margin-bottom: 11px;
+}
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 
 .not-selectable, img, .carter-control {
