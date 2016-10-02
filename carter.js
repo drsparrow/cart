@@ -17,6 +17,10 @@ $(function(){
     return arr[arr.length - 1];
   }
 
+  Carter.moveAll = function () {
+    Carter.carters.forEach(function(cart) { cart.react() })
+  }
+
   Carter.prototype.left = function () { return this.jqueryObject.position().left }
   Carter.prototype.top = function () { return this.jqueryObject.position().top }
   Carter.prototype.centerX = function () { return this.left() + this.width/2 }
@@ -89,10 +93,6 @@ $(function(){
   var $followers = $('.follower')
   $followers.each(function() { new Carter(this) })
 
-  var moveFunction = function() {
-    Carter.carters.forEach(function(f) { f.react() })
-  }
-
   var $addition = $('.js-addition')
   var pictureIndex = 0
   var totalPictures = 5
@@ -148,5 +148,5 @@ $(function(){
     $(this).addClass('disabled')
   })
 
-  setInterval(moveFunction, 10)
+  setInterval(Carter.moveAll, 10)
 })
