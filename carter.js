@@ -11,7 +11,6 @@ $(function(){
 
   Carter.multiplier = 2
   Carter.carters = []
-  Carter.brokenFree = false //localStorage.getItem('cartersBrokenFree')
 
   Carter.last = function () {
     var arr = Carter.carters;
@@ -144,7 +143,6 @@ $(function(){
   })
 
   $('.js-remove-border').click(function(){
-    // localStorage.setItem('cartersBrokenFree', true)
     Carter.brokenFree = true
     $carterHeadsContent.css('border-color', 'transparent')
     $(this).addClass('disabled')
