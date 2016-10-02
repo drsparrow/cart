@@ -17,6 +17,7 @@ body {
   position: absolute;
   top: 50px;
   left: 50px;
+  z-index: 1;
 }
 
 .carter-control {
@@ -185,6 +186,10 @@ body {
   border: 3px solid orange;
   width: 200px;
   margin-right: 40px;
+}
+
+.back-to-top-container {
+  margin-bottom: 11px;
 }
 
 .not-selectable, img, .carter-control {
