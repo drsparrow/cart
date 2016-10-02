@@ -94,7 +94,7 @@ body {
   position: relative;
 }
 
-.img-wrapper p {
+.img-wrapper .img-info {
   position:absolute;
   bottom:0px;
   left:0px;
@@ -104,7 +104,7 @@ body {
   display: inline;
 }
 
-.img-wrapper:hover p {
+.img-wrapper:hover .img-info {
   visibility:visible;
 }
 
