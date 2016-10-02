@@ -139,7 +139,7 @@ $(function(){
     }
   })
 
-  $('.js-multiplier').change(function(){
+  $('.js-multiplier').on('input', function(){
     Carter.multiplier = this.value
   })
 
