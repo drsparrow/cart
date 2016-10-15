@@ -145,9 +145,16 @@ body {
   margin-top: 33px;
 }
 
+.facts {
+  width: 800px;
+}
+
+.contact-me {
+  width: 500px;
+}
+
 .contact-me, .facts {
   margin: 11px auto;
-  width: 500px;
   border: 2px dashed white;
   background: orange;
   padding: 2px;
@@ -185,6 +192,15 @@ body {
   margin-top: 35px;
   color: lightgray;
   margin-bottom: 10px;
+}
+
+.link-element {
+  margin: 0px 11px;
+}
+
+.fact-images img {
+  height: 300px;
+  margin: 0px 7px;
 }
 
 .float-left { float: left; }
