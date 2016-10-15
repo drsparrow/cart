@@ -199,6 +199,12 @@ body {
   margin-bottom: 10px;
 }
 
+.sheet-music-info {
+  background: purple;
+  color: white;
+  padding: 10px;
+}
+
 .link-element {
   margin: 0px 11px;
 }
