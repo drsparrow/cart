@@ -181,6 +181,12 @@ body {
   margin-bottom: 11px;
 }
 
+.copyright {
+  margin-top: 35px;
+  color: lightgray;
+  margin-bottom: 10px;
+}
+
 .float-left { float: left; }
 .float-right { float: right; }
 
