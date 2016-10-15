@@ -145,7 +145,7 @@ body {
   margin-top: 33px;
 }
 
-.contact-me {
+.contact-me, .facts {
   margin: 11px auto;
   width: 500px;
   border: 2px dashed white;
