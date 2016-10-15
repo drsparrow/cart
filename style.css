@@ -145,6 +145,11 @@ body {
   margin-top: 33px;
 }
 
+.page-header {
+  background-color: red;
+  color: white;
+}
+
 .facts {
   width: 800px;
 }
