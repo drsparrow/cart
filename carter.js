@@ -149,4 +149,8 @@ $(function(){
   })
 
   setInterval(Carter.moveAll, 10)
+
+  // needed for safari
+  $('span.img-wrapper img').load(function(){ $('span.img-wrapper').width(0) })
+
 })
