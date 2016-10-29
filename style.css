@@ -226,6 +226,10 @@ body {
    clear: both;
 }
 
+.hidden-img {
+  border: none; margin: 0; padding: 0;
+}
+
 .not-selectable, img, .carter-control {
   user-drag: none;user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;
 }
